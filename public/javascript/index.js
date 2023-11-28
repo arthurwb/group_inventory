@@ -9,7 +9,7 @@ $(document).ready(function() {
         if (data) {
             data.forEach(item => {
                 total += item.value;
-                const listItem = $('<li class="inventory-list-item"></li>').html(`<button id="deleteBtn" class="inventory-item" data-id="${id}">delete</button> <button id="editBtn" class="inventory-item" data-id="${id}">edit</button> Name: ${item.name}, Value: ${item.value}`);
+                const listItem = $('<div class="inventory-list-item"></div>').html(`<button id="deleteBtn" class="inventory-item" data-id="${id}">delete</button> <button id="editBtn" class="inventory-item" data-id="${id}">edit</button> Name: ${item.name}, Value: ${item.value}`);
                 inventoryList.append(listItem);
                 id++;            
             });

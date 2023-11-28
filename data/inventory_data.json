@@ -1,0 +1,28 @@
+{
+  "inventory": [
+    {
+      "name": "test",
+      "value": 24
+    },
+    {
+      "name": "test",
+      "value": 42
+    },
+    {
+      "name": "test",
+      "value": 42
+    },
+    {
+      "name": "test",
+      "value": 1
+    },
+    {
+      "name": "test",
+      "value": 123
+    },
+    {
+      "name": "test",
+      "value": 1424
+    }
+  ]
+}

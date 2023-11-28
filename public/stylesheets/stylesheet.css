@@ -1,0 +1,24 @@
+body {
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input, form button {
+    font-size: 30px;
+    margin: 5px;
+    padding: 12px;
+}
+
+h1 {
+    color: red;
+}
+
+.inventory-list-item {
+    font-size: 40px;
+    margin: 5px;
+}
+
+.inventory-item {
+    font-size: 30px;
+}
